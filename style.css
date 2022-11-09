@@ -21,10 +21,10 @@ body{
   background-repeat: no-repeat;
   object-fit: contain;
   height: 50vh;
-  width: 100%;
+  width: 75%;
   display: flex;
-  align-self: center;
-  margin: 10px;
+  align-items: center;
+  margin: 50px;
 }
 
 #about-me-header, #contact-info{
