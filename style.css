@@ -18,16 +18,16 @@ body{
 
 .image-container{
   background-image: url('./Images/fake\ picture.png');
-  background-repeat: no-repeat;
   object-fit: contain;
   height: 50vh;
   width: 75%;
   display: flex;
   align-items: center;
   margin: 50px;
+  border-radius: 50px;
 }
 
-#about-me-header, #contact-info{
+#about-me-header, #contact-info, #projects{
 color: navy;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
@@ -44,4 +44,14 @@ text-align: center;
 
     .contact-list-info{
     font-family: 'Times New Roman', Times, serif;
-    }
+     font-size: 18px;
+    display:flex;
+    text-align: center;
+}
+ .project-list{
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+    display:flex;
+    text-align: center;
+
+ }
