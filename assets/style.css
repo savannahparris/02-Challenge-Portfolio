@@ -1,5 +1,6 @@
 body{
-    border: solid black 3px;
+    border: solid darkolivegreen 3px;
+    background-image: radial-gradient( circle, rgb(219, 253, 219), white);
 }
 
 /* NAVBAR */
@@ -8,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 253, 219) ;
-    position: sticky;
+    position: relative;
     top: 0;
 
 }
@@ -36,30 +37,23 @@ body{
 }
 
 /* HEADING */
-.name{
-    color: darkolivegreen;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 42px;
-    display:flex;
-    justify-content: center;
-}
-
 .header-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+}
+.name{
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+}
+#profile-img{
+    height: 220px;
+    width: 170px;
+    border-radius: 20%;
+    box-shadow: 70px darkolivegreen;
 }
 
-.image-container{
-  height: 50px;
-  width: 50px;
-  display: flex;
-  align-items: center;
-  object-fit: contain;
-  margin: 50px;
-  border-radius: 50px;
-}
 
 /* BODY */
 #about-me-header, #contact-info, #project-info{
@@ -70,9 +64,9 @@ text-align: center;
 }
 
 .about-me-paragraph{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(219, 253, 219);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
     color: rgb(107, 147, 107);
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -84,13 +78,13 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(219, 253, 219) ;
     position: sticky;
     top: 0px;
     
 }
 .contact-info-list ul, .project-info-list ul{
     display: flex;
+    text-align: center;
     margin: 20px 0px;
     color: rgb(107, 147, 107);
 }
