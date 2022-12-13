@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,42 +8,66 @@
     <title>Student Bio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
     <header class="header-container">
-    <h1 class="name">Savannah Parris</h1>
-    <div class="image-container"></div>
- <!-- <img src="https://www.webfx.com/wp-content/uploads/2021/10/generic-image-placeholder.png" alt="generic-image-placeholders"> -->
+        <h1 class="name">Savannah Parris</h1>
+            <span id="profile-img">
+                <img src="./assets/Images/smiles.jpg" alt="temporary img until professional headshots" height="200px" width="150px">
+            </span>
+        
+       
     </header>
     <section>
-        <div id="about-me-header"><h1>About Me</h1></div>
-         
+        <div id="about-me-header">
+            <h1>About Me</h1>
+        </div>
+
         <p class="about-me-paragraph display inline">
-            I'm a student in the Georgia Tech coding bootcamp.  
+            I'm a student in the Georgia Tech coding bootcamp.
             I enjoy solving problems and creating eye catching designs.
             I look forward to learning how to code and building my new career.
         </p>
-            
-    
-        </section> 
-        
+
+
+    </section>
+
 
     <section>
-    <header id="contact-info"><h1>Contact Information</h1></header>
-    
+        <header id="contact-info">
+            <h1>Contact Information</h1>
+        </header>
+
         <ul class="contact-info-list">
-        <li><strong>Email:</strong> <a href="#">savwillcha@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/savannahparris">savannahparris</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-        
+            <li><strong>Email:</strong> <a href="#">savwillcha@gmail.com</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/savannahparris">savannahparris</a></li>
+            <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
+
         </ul>
-        <div id="projects"><H1>Projects</H1>
-        <ul class="project-list">
-            <li><strong>Project One:</strong><a href="https://audrey-505.github.io/animated-spork/"> Minder</a></li>
-        </ul>
-        </div>
-
-
-
+    </section>
+    <section>
+        <header id="project-info">
+            <h1>Bootcamp Projects</h1>
+        </header>
+         <ul class="project-info-list">
+            <li id="project-items"><strong>Project One:</strong> <a href="https://audrey-505.github.io/animated-spork/"> Minder</a></li>
+            <li id="project-items"><strong>Project Two:</strong> <a href="#"> Coming Soon</a></li>
+            <li id="project-items"><strong>Project Three:</strong> <a href="#"> Coming Soon</a></li>
+         </ul>
+    </section>    
     
+
+
+
+
 </body>
+
 </html>

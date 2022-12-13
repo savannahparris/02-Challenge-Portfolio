@@ -2,9 +2,43 @@ body{
     border: solid black 3px;
 }
 
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 253, 219) ;
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(107, 147, 107);
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: darkolivegreen;
+    box-shadow: 0 0 10px white;
+}
+
+/* HEADING */
 .name{
-    color: navy;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     display:flex;
     justify-content: center;
@@ -14,44 +48,50 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .image-container{
-  background-image: url('./Images/fake\ picture.png');
-  object-fit: contain;
-  height: 50vh;
-  width: 75%;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
+  object-fit: contain;
   margin: 50px;
   border-radius: 50px;
 }
 
-#about-me-header, #contact-info, #projects{
-color: navy;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* BODY */
+#about-me-header, #contact-info, #project-info{
+color: darkolivegreen;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 text-align: center;
 }
 
 .about-me-paragraph{
-    background-color: navy;
-    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(219, 253, 219);
+    color: rgb(107, 147, 107);
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
 
-    .contact-list-info{
-    font-family: 'Times New Roman', Times, serif;
-     font-size: 18px;
-    display:flex;
-    text-align: center;
+.contact-info-list, .project-info-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 253, 219) ;
+    position: sticky;
+    top: 0px;
+    
 }
- .project-list{
-    font-family: 'Times New Roman', Times, serif;
-     font-size: 18px;
-    display:flex;
-    text-align: center;
+.contact-info-list ul, .project-info-list ul{
+    display: flex;
+    margin: 20px 0px;
+    color: rgb(107, 147, 107);
+}
 
- }
