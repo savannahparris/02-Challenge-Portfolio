@@ -1,6 +1,7 @@
 body{
     border: solid darkolivegreen 3px;
     background-image: radial-gradient( circle, rgb(219, 253, 219), white);
+
 }
 
 /* NAVBAR */
@@ -50,8 +51,9 @@ body{
 #profile-img{
     height: 220px;
     width: 170px;
+    border-style: 3px solid;
     border-radius: 20%;
-    box-shadow: 70px darkolivegreen;
+    
 }
 
 
@@ -76,16 +78,8 @@ text-align: center;
 .contact-info-list, .project-info-list{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0px;
-    
-}
-.contact-info-list ul, .project-info-list ul{
-    display: flex;
-    text-align: center;
-    margin: 20px 0px;
+    list-style: circle outside;
     color: rgb(107, 147, 107);
 }
 
